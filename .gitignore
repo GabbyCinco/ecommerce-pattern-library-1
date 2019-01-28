@@ -1,3 +1,8 @@
+Gemfile.lock
+
+
+_site
+
 # Test files
 node_modules
 npm-debug.log

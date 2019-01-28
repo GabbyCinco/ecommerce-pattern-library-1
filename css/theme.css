@@ -1,0 +1,53 @@
+:root {
+  --color-primary: red;
+  --color-primary-dark: #840909;
+  --color-secondary: #000;
+  --color-neutral-beige: peachpuff;
+  --color-neutral-beige-dark: #e0b179;
+
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: Arial, sans-serif;
+
+  --border-radius: 4px;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+/* @utility Apply the second typeface */
+.font-secondary {
+  font-secondary: var(--font-secondary);
+}
+
+/* @utility Apply a beige background colour to an element */
+.section-beige {
+  background-color: var(--color-neutral-beige);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+}
+
+ul, ol, dl {
+  color: #000;
+}
+
+a {
+  color: var(--color-primary-dark);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+blockquote, cite {
+  font-family: var(--font-secondary);
+}
+
+mark {
+  color: #fff;
+  background-color: var(--color-neutral-beige-dark);
+}
+
+del {
+  color: #a2a2a2;
+}

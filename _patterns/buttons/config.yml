@@ -1,0 +1,15 @@
+title: "Button Styles"
+description:
+  Lots of different button styles, each for different reasons.
+
+patterns:
+  basic
+  title: "Super basic button"
+  description:
+    the basic button should be used in most situations.
+  fields:
+    - name: text
+  ghost:
+    description:
+      The ghost button should only be used on banners.
+    width: 320
