@@ -2,4 +2,21 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Own it."
+  description: |
+    An eCommerce website that sells exact brand clothing and accessories worn by various famous music artists in the world. Celebrity singers, rappers and dj's are well recognized for their fashion as well as their music. Find the items you're looking for, worn by your favourite artists and Own it.
   font_url: "https://fonts.googleapis.com/css?family=Raleway:400,700"
+  colors:
+    background: "--color-neutral-beige"
+    accent: "--color-primary-dark"
+    patterns:
+      brand.logos: "--color-primary"
+  rationales:
+    typefaces.primary: |
+      Raleway was selected for all headings because it is a round and eye-catching typeface that is appropriate for representing striking celebrity looks.
+    typefaces.secondary: |
+      Arial is only used for all body copy in most situations.
+    colors.primary: |
+      The primary colours are very bold and classic which represents most celebrity fashion. They should be used for buttons, text and footer background.
+    colors.secondary: |
+      The secondary colours are more neutral, calming down the bold look, and should be used for backgrounds.

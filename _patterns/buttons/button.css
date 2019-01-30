@@ -11,3 +11,8 @@
   border-style: solid;
   border-radius: 3px;
 }
+
+.btn-light {
+  background-color: var(--color-neutral-beige-dark);
+  color: var(--color-secondary);
+}
