@@ -3,7 +3,7 @@ description:
   Lots of different button styles, each for different reasons.
 
 patterns:
-  basic
+  basic:
   title: "Super basic button"
   description:
     the basic button should be used in most situations.

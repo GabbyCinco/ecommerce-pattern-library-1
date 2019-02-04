@@ -20,7 +20,7 @@ html {
   font-secondary: var(--font-secondary);
 }
 
-/* @utility Apply a beige background colour to an element */
+/* @utility Apply a background colour to an element */
 .section-beige {
   background-color: var(--color-neutral-beige);
 }
