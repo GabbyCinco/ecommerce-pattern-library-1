@@ -7,12 +7,18 @@
 
 .btn-ghost {
   background-color: transparent;
-  color: var(--color-secondary);
+  color: var(--color-primary-dark);
   border-style: solid;
   border-radius: 3px;
+  border-color: var(--color-primary-dark);
 }
 
 .btn-bag {
   background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: var(--color-primary-dark);
   color: #fff;
 }
