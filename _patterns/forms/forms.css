@@ -19,10 +19,6 @@ fieldset {
   border-bottom: 2px solid #000;
 }
 
-.form {
-  background-color: #fff;
-}
-
 .payment {
   border: none;
   background-color: var(--color-primary-dark);

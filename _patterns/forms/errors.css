@@ -10,6 +10,7 @@
 }
 
 .error-message {
+  display: none;
   background-color: #fee;
   color: #c33;
 }
@@ -29,8 +30,4 @@
 
 .colour-choice {
   display: block;
-}
-
-span {
-  color: var(--color-primary);
 }
