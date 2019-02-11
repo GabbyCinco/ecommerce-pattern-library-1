@@ -6,10 +6,18 @@ patterns:
   basic:
     title: "Buttons"
     description: |
-      Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons beacus ethey should be the primary call-to-action for a screen.
+      Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+    width: "12em"
     fields:
       - name: text
   ghost:
     description: |
       The ghost button should only be used on banners.
+    background: "--color-neutral-beige-dark"
     width: 320
+  bag:
+    description: |
+      This button is used for the check out.
+  dark:
+    description: |
+      This style is used for buttons in a form.
