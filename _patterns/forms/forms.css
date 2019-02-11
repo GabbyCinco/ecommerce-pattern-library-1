@@ -22,3 +22,9 @@ fieldset {
 .form {
   background-color: #fff;
 }
+
+.payment {
+  border: none;
+  background-color: var(--color-primary-dark);
+  color: #fff;
+}

@@ -2,20 +2,23 @@
   <div class="pad-b-1-2">
     <label for="first">First Name</label>
     <input class="milli" id="first">
+    <span class="milli">Please provide a name</span>
   </div>
 
   <div class="pad-b-1-2">
     <label for="last">Last Name</label>
     <input class="milli" id="last">
+    <span class="milli">Please provide a name</span>
   </div>
 
   <div class="push">
     <label for="email">E-mail</label>
     <input class="milli" type="email " id="email">
+    <span class="milli">Please provide an email</span>
   </div>
 
   <fieldset class="pad-t">
-    <fieldset class="payment island-1-2 push">
+    <fieldset class="payment island-1-2 push-0">
       <div class="milli push-0">
         <input id="credit" type="radio" name="payment">
         <label for="credit">Credit</label>
@@ -24,10 +27,12 @@
         <label for="debit">Debit</label>
       </div>
     </fieldset>
+    <span class="milli">Please choose a payment method</span>
 
     <div class="pad-b-1-2">
       <label for="card-number">Card Number</label>
       <input class="milli" id="card-number">
+      <span class="milli">Please insert a valid card number</span>
     </div>
 
     <div class="push">
@@ -44,28 +49,30 @@
 
     <div class="push milli">
       <input id="black" type="radio" name="color">
-      <label class="gutter-1-4" for="black">Black</label>
+      <label class="gutter-1-4 push" for="black">Black</label>
 
       <input id="white" type="radio" name="color">
-      <label class="gutter-1-4" for="white">White</label>
+      <label class="gutter-1-4 push" for="white">White</label>
 
       <input id="beige" type="radio" name="color">
-      <label class="gutter-1-4" for="beige">Beige</label>
+      <label class="gutter-1-4 push" for="beige">Beige</label>
 
       <input id="blue" type="radio" name="color">
-      <label class="gutter-1-4" for="blue">Blue</label>
+      <label class="gutter-1-4 push" for="blue">Blue</label>
 
       <input id="red" type="radio" name="color">
-      <label class="gutter-1-4" for="red">Red</label>
+      <label class="gutter-1-4 push" for="red">Red</label>
 
       <input id="yellow" type="radio" name="color">
-      <label class="gutter-1-4" for="yellow">Yellow</label>
+      <label class="gutter-1-4 push" for="yellow">Yellow</label>
+
+      <span class="milli colour-choice">Please choose a colour</span>
     </div>
   </fieldset>
 
   <div class="push-2">
     <label  class="push-1-2" for="message">Is there any famous artist or outfit they have worn that you recommend to add to the store? List as much as you want and we'll take note of them all.</label>
-    <textarea class="milli" id="message"></textarea>
+    <textarea class="milli" id="message "></textarea>
   </div>
 
   <button class="btn" type="submit">Submit</button>

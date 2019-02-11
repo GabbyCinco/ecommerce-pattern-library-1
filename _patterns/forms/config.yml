@@ -1,0 +1,7 @@
+patterns:
+  forms:
+    description: |
+      These styles shoud be used for the payment form.
+  errors:
+    description: |
+      These styles show up if there are any errors/missing information in a form.
