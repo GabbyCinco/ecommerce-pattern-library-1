@@ -1,0 +1,8 @@
+title: "Navigations"
+description: |
+  This navigation should be placed on the products and details page.
+
+patterns:
+  secondary-nav:
+    description: |
+      This internal navigation is for users to be able to search/browse for fashionable items by the first letter of a celebrity music artist's name.

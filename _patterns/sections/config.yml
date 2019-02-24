@@ -1,0 +1,11 @@
+title: "Sections"
+description: |
+  These section styles are for grouping specific pieces of conent together.
+
+patterns:
+  about:
+    description: |
+      This section will be shown on the home page, explaining what this website is about.
+  trending:
+    description: |
+      This section is used for advertising the most popular items in stock. It should be just before the footer of all pages except for the Bag/Cart page.

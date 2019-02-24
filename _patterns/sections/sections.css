@@ -1,0 +1,49 @@
+h2 {
+  color: var(--color-primary-dark);
+}
+
+.trending-section {
+  background-color: var(--color-neutral-beige);
+}
+
+.card:hover {
+  filter: sepia(100%);
+  transition: all .2s linear;
+  background-color: var(--color-primary-dark);
+  color: var(--color-secondary-light);
+}
+
+p {
+  font-family: var(--font-secondary);
+}
+
+.relative {
+  position: relative;
+}
+
+.singer,
+.fan {
+  position: absolute;
+  top: 6%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--color-secondary-light);
+  padding: 7px;
+}
+
+.fan {
+  left: 50%
+}
+
+@media only screen and (min-width: 38em) {
+
+  .singer,
+  .fan {
+    top: 11%;
+    padding: 12px 15px;
+  }
+
+  .fan {
+    left: 26%
+  }
+
+}
