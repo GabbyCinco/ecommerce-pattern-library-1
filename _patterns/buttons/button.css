@@ -7,10 +7,15 @@
 
 .btn-ghost {
   background-color: transparent;
-  color: var(--color-secondary);
+  color: var(--color-secondary-light);
   border-style: solid;
   border-radius: 3px;
-  border-color: var(--color-secondary);
+  border-color: var(--color-secondary-light);
+}
+
+.btn-ghost:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .btn-bag {
