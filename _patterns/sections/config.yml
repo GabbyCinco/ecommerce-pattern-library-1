@@ -9,3 +9,9 @@ patterns:
   trending:
     description: |
       This section is used for advertising the most popular items in stock. It should be just before the footer of all pages except for the Bag/Cart page.
+  product-search:
+    description: |
+      This is a navigation section that should be shown at the top of the products and details page. First, the user will click the first letter of their favourite artist. Then find and click the artist's name among the list of others beginning with the same letter.
+  product-list:
+    description: |
+      This section displays all of the products worn by the name of a chosen artist and placed just under the product search navigation.

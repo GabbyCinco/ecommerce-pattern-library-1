@@ -1,0 +1,75 @@
+html {
+  background-color: #fff;
+}
+
+.main-nav {
+  border-style: none;
+}
+
+.pages {
+  color: var(--color-secondary);
+}
+
+.pages:hover {
+  border-width: 0 0 3px;
+  border-style: solid;
+  border-color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .social {
+    text-align: right;
+  }
+
+  .btn-bag {
+    text-align: right;
+  }
+
+  .pages {
+    margin-bottom: 0;
+  }
+
+}
+
+.letters {
+  border-style: solid;
+  border-width: 4px;
+  border-color: var(--color-neutral-beige);
+}
+
+.letter {
+  color: var(--color-secondary);
+  background-color: var(--color-neutral-beige);
+}
+
+.letter:hover {
+  color: var(--color-secondary-light);
+  background-color: var(--color-secondary);
+}
+
+.names {
+  color: var(--color-secondary);
+}
+
+.names:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary-light);
+}
+
+li {
+  font-family: var(--font-secondary);
+}
+
+.names-li:hover {
+  color: var(--color-secondary-light);
+  background-color: var(--color-primary);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .page-buttons {
+    margin-bottom: 0;
+  }
+
+}

@@ -1,0 +1,8 @@
+title: "Footer"
+description: |
+  Footers contain all contact and social media links.
+
+patterns:
+  main-footer:
+    description: |
+      This is the main navigation that must be at the bottom of each page of the website.

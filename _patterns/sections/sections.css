@@ -6,6 +6,19 @@ h2 {
   background-color: var(--color-neutral-beige);
 }
 
+.trending {
+  border-width: 3px 0;
+  border-style: solid;
+}
+
+p {
+  font-family: var(--font-secondary);
+}
+
+.card {
+  border: 1px solid var(--color-secondary);
+}
+
 .card:hover {
   filter: sepia(100%);
   transition: all .2s linear;
@@ -13,9 +26,6 @@ h2 {
   color: var(--color-secondary-light);
 }
 
-p {
-  font-family: var(--font-secondary);
-}
 
 .relative {
   position: relative;
@@ -25,7 +35,7 @@ p {
 .fan {
   position: absolute;
   top: 6%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   color: var(--color-secondary-light);
   padding: 7px;
 }
@@ -46,4 +56,26 @@ p {
     left: 26%
   }
 
+}
+
+html {
+  background-color: #fff;
+}
+
+nav {
+  border-style: solid;
+  border-width: 3px;
+  border-color: var(--color-neutral-beige);
+}
+
+.artist-products {
+  border-width: 2px 0 0;
+  border-style: solid;
+  border-color: var(--color-secondary);
+}
+
+.search-nav,
+.about,
+.artist {
+  color: var(--color-primary);
 }

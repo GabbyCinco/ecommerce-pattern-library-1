@@ -24,3 +24,7 @@ fieldset {
   background-color: var(--color-primary-dark);
   color: #fff;
 }
+
+.message {
+  font-family: var(--font-secondary);
+}
