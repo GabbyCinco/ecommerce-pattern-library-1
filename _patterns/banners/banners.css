@@ -1,0 +1,7 @@
+.call-to-action {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: var(--color-secondary-light);
+  right: 7%;
+  top: 50%;
+  width: 40%;
+}
