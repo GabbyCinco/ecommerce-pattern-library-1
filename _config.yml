@@ -20,3 +20,16 @@ patternbot:
       The primary colours are very bold and classic which represents most celebrity fashion. They should be used for buttons, text and footer background.
     colors.secondary: |
       The secondary colours are more neutral, calming down the bold look, and should be used for backgrounds.
+    layouts:
+      default: |
+        The default layout should be used for almost every page, it includes the website's primary header and footer.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product
