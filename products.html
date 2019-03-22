@@ -2,4 +2,10 @@
 layout: products
 ---
 
+{% pattern banners/welcome-banner text="Find trendy fashion worn by your favourite artists/performers" %}
+
 <h1>Products</h1>
+
+{% for product in site.products %}
+  {% pattern cards/product-card data=product %}
+{% endfor %}

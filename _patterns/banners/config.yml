@@ -1,0 +1,10 @@
+title: "Banners"
+description: |
+  Banners must be placed first under the main navigation.
+
+patterns:
+  welcome-banner:
+    fields:
+      - name: text
+        type: string
+        example: "Find trendy fashion worn by your favourite artists/performers"

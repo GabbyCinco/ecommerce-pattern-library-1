@@ -1,7 +1,16 @@
 .call-to-action {
-  background-color: rgba(0, 0, 0, 0.6);
   color: var(--color-secondary-light);
-  right: 7%;
-  top: 50%;
-  width: 40%;
+  background-color: var(--color-secondary);
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .call-to-action {
+    right: 7%;
+    top: 46%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
 }
