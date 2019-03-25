@@ -5,7 +5,7 @@ description: |
 patterns:
   secondary-nav:
     description: |
-      This internal navigation is for users to be able to search/browse for fashionable items by the first letter of a celebrity music artist's name.
+      This internal navigation should display on the Products page. Users will be able to search/browse for fashionable items by the first letter of a music artist's name.
   names-nav:
     description: |
       Once the user chooses a letter, they must find the name of an artist in order to view the products/outfits in stock, worn by them.
