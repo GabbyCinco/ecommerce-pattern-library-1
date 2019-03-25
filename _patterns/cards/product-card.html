@@ -1,11 +1,12 @@
 <a href="#">
   <div class="card-product chop">
-    <img class="img-flex max-width" src="/images/round-glasses.jpg" alt="Colourful, round shades">
+    <img class="img-flex max-width" src="{{include.data.image}}" alt="#">
     <div class="island-1-2">
       <h3 class="peta push-1-4">{{include.data.name}}</h2>
-      <p class="not-bold">{{include.data.desc}}</p>
-      <strong>${{include.data.cost}}</strong>
+      <p class="not-bold">{{include.data.description}}</p>
+      <strong>${{include.data.price}}</strong>
       {% pattern buttons/add-to-bag %}
+      {% pattern buttons/basic text="Buy now" url=include.data.url %}
     </div>
   </div>
 </a>
