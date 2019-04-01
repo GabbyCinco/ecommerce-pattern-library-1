@@ -8,3 +8,6 @@ patterns:
       - name: text
         type: string
         example: "Find trendy fashion worn by your favourite artists/performers"
+      - name: img
+        type: string
+        example: "/images/banner.jpg"
