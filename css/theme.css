@@ -40,6 +40,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--color-primary);
+}
+
 blockquote, cite {
   font-family: var(--font-secondary);
 }
