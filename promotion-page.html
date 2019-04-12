@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div class="push-2">
+  <div class="promo-alert pad-t pad-b-1-2 text-center">
+    <h3 class="push-0">$40 OFF all items in Alex Aiono's section!!!</h2>
+  </div>
+  {% pattern banners/welcome-banner text="Find trendy fashion worn by your favourite artists/performers" img="/images/products-banner.jpg" %}
+</div>
+
+<div class="text-center gutter-2 push-2">
+  <div class="card-product chop inline-block push-r push-l">
+    <img class="img-flex max-width" src="/images/accessories.png" alt="#">
+    <div class="island-1-2">
+      <h3 class="peta push-1-4">{{include.data.name}}</h3>
+      <p class="not-bold">{{include.data.description}}</p>
+      <strong>${{include.data.price}}</strong>
+      {% pattern buttons/add-to-bag text="Buy now" url=include.data.url %}
+    </div>
+  </div>
+  <div class="card-product chop inline-block push-r push-l">
+    <img class="img-flex max-width" src="/images/accessories.png" alt="#">
+    <div class="island-1-2">
+      <h3 class="peta push-1-4">{{include.data.name}}</h3>
+      <p class="not-bold">{{include.data.description}}</p>
+      <strong>${{include.data.price}}</strong>
+      {% pattern buttons/add-to-bag text="Buy now" url=include.data.url %}
+    </div>
+  </div>
+</div>
