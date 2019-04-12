@@ -6,3 +6,8 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+.promo-alert {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-light);
+}
