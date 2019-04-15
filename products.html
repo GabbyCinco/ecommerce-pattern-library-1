@@ -2,9 +2,10 @@
 layout: default
 ---
 
-{% pattern banners/welcome-banner text="Find trendy fashion worn by your favourite artists/performers" %}
+{% pattern banners/welcome-banner text="Find trendy fashion worn by your favourite artists/performers" img="/images/products-banner.jpg" %}
 
-<h1>Products</h1>
+{% pattern sections/product-search %}
+
 <div class="grid gutter-1-4">
   {% for product in site.products %}
   <div class="unit xs-1 s-1 m-3 island-1-4">

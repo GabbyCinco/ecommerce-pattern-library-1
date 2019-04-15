@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="push-2">
   <div class="promo-alert pad-t pad-b-1-2 text-center">
     <h3 class="push-0">30% OFF all items in Alex Aiono's section!!!</h2>
@@ -29,7 +30,8 @@ layout: default
   </div>
 </div>
 
-<div class="island-2">
+<div class="island-2 section-beige push-2">
+  <h2>Bulk Pricing Table</h2>
   <table class="cart gutter" id="cart">
     <thead>
       <tr>
@@ -96,4 +98,10 @@ layout: default
       </tr>
     </tbody>
   </table>
+</div>
+
+<div class="text-center push-2">
+  <h2>E-mail Newsletter Signup</h2>
+  <p>We will notify you on the latest discounts and promotions!</p>
+  {% pattern buttons/add-to-bag text="Signup" url=include.data.url %}
 </div>
