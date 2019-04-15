@@ -2,10 +2,6 @@ h2 {
   color: var(--color-primary-dark);
 }
 
-.trending-section {
-  background-color: var(--color-neutral-beige);
-}
-
 .trending {
   border-width: 3px 0;
   border-style: solid;
